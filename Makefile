@@ -3,6 +3,9 @@
 
 all: libjsmn.a 
 
+install:
+# Nothing to do! It's a static library
+
 libjsmn.a: jsmn.o
 	$(AR) rc $@ $^
 
